@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.virar-tela {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.virar-tela img {
+    width: auto;
+    height: 13%;
+}
+#pt1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-foto {
+    height: 90%;
+    width: 54%;
+    background-image: url(ft1.jpeg);
+    background-attachment: scroll;
+    background-size: 126%;
+    background-position: center;
+    position: fixed;
+    top: 10%;
+}
+
+#pt1 h1{
+    position: fixed;
+    top: 0%;
+    font-size: 221%;
+    padding: 2%;
+}
+.options {
+    width: min-content;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 68%;
+    left: 7%;
+    gap:5%
+}
+.options button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29%;
+    width: 135%;
+    padding: 7px;
+}
+
+#pt2 {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-image: url(ft2.jpeg);
+    background-size: 146vh;
+    background-position: center;
+    color: blue;
+}
+#pt2 h1{
+    position: fixed;
+    bottom: 0%;
+    font-size: 10vh;
+    padding: 2%;
+    
+}
+.btn-pt2{
+    position: relative;
+    width: 5%;
+    height: 5%;
+    top: 70%;
+}
+#sim{
+    left: 36%;
+}
+#no{
+    left: 45%;
+}
+
+#pt3 {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-image: url(ft3.png);
+    background-size: 100%;
+}
+
+@media(min-height: 500px){
+    .virar-tela {
+        display: flex;
+    }
+    #pt1,#pt2,#pt3{
+        display: none;
+    }
+
+}
