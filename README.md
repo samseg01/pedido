@@ -1,6 +1,6 @@
 ## Pedido...
-Projeto feito pra um amigo GADO que queria pedir sua ficante para sair.
+Projeto feito pra um amigo GADO que queria pedir sua ficante para sair, baseado em memes trash.
 
 Uma semana depois eles terminaram...
 
-  https://samseg01.github.io/renan/
+https://samseg01.github.io/pedido/
