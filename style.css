@@ -52,7 +52,7 @@ body {
 #container-foto {
     height: 90%;
     width: 54%;
-    background-image: url(ft1.jpeg);
+    background-image: url(ft1.jpg);
     background-attachment: scroll;
     background-size: 126%;
     background-position: center;
@@ -87,12 +87,12 @@ body {
 }
 
 #pt2 {
-    display: none;
+        display: none;
     width: 100%;
     height: 100vh;
-    background-image: url(ft2.jpeg);
-    background-size: 146vh;
-    background-position: center;
+    background-image: url(ft2.jpg);
+    background-size: 84%;
+    background-position: bottom;
     color: blue;
 }
 #pt2 h1{
@@ -120,10 +120,21 @@ body {
 
 #pt3 {
     display: none;
-    height: 100vh;
+    align-items: top;
+    justify-content: center;
+    height: 100%;
     width: 100%;
-    background-image: url(ft3.png);
+    background-image: url(ft3.jpg);
     background-size: 100%;
+    h1 {
+        margin: 10px;
+        font-size: 200px;
+        color: rgb(168, 4, 4);
+    }
+    img {
+        width: 50%;
+        height: 20%;
+    }
 }
 
 @media (orientation:portrait){
