@@ -46,19 +46,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-image: url(ft1.jpeg);
+    background-attachment: scroll;
+    background-size: 100%;
+    color: blue;
+    font-size: 200%;
+    text-align: center;
 }
 
-#container-foto {
+/* #container-foto {
     height: 90%;
     width: 54%;
-    background-image: url(ft1.jpg);
-    background-attachment: scroll;
-    background-size: 126%;
     background-position: center;
     position: fixed;
     top: 10%;
-}
+} */
 
 #pt1 h1{
     position: fixed;
@@ -87,14 +89,29 @@ body {
 }
 
 #pt2 {
-        display: none;
+    display: none;
     width: 100%;
     height: 100vh;
-    background-image: url(ft2.jpg);
-    background-size: 84%;
-    background-position: bottom;
     color: blue;
+    background-color: black;
+    h1, button {
+        z-index: 5;
+    }
 }
+.division {
+    display: flex;
+    position: relative;
+    /* z-index: -1; */
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    background-size: 100%;
+    background-position: center;
+    img {
+        height: 100%;
+    }
+}
+
 #pt2 h1{
     position: fixed;
     bottom: 0%;
@@ -120,20 +137,22 @@ body {
 
 #pt3 {
     display: none;
-    align-items: top;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-image: url(ft3.jpg);
-    background-size: 100%;
     h1 {
+        flex: 1;
         margin: 10px;
-        font-size: 20%;
+        font-size: 500%;
+        text-align: center;
         color: rgb(168, 4, 4);
     }
     img {
+        flex: 1;
+        height: 70%;
         width: 50%;
-        height: 20%;
     }
 }
 
